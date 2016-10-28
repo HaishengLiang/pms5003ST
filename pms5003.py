@@ -54,7 +54,7 @@ def main():
                                        datas[3], datas[4], datas[5],
                                        datas[6], datas[7], datas[8],
                                        datas[9], datas[10], datas[11],
-                                       datas[12]/1000.0, datas[13]/10, datas[14]/10))
+                                       datas[12]/1000.0, datas[13]/10.0, datas[14]/10.0))
         # 清空接收缓冲区  
         ser.flushInput()
         
